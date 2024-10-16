@@ -1,0 +1,19 @@
+/* src/components/TicketCard.css */
+.ticket-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.ticket-card:hover {
+    transform: translateY(-3px);
+}
+
+.ticket-card h3 {
+    margin: 0;
+    font-size: 1.1em;
+}
